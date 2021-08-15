@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<!-- 	bootstrap css-->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/styleRow-Columns.css" />
+<title>Document</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row bg">
+			<div class="col">col1</div>
+			<div class="col">col2</div>
+			<div class="col">col3</div>
+		</div>
+		<div class="row bga">
+			<div class="col">col sin auto</div>
+			<div class="col-auto bgauto">Hola me acomodo solito</div>
+			<div class="col">col sin auto</div>
+		</div>
+		<div class="row">
+			<div class="col-3 bg1">soy de 3</div>
+			<div class="col-2 bg2">soy de 2</div>
+			<div class="col-7 bg3">soy de 7</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-6 col-lg-9 bgdim1">col-12 col-md-6
+				col-lg-9</div>
+			<div class="col-12 col-md-6 col-lg-3 bgdim2">col-12 col-md-6
+				col-lg-3</div>
+		</div>
+		<div class="row ">
+			<div class="col-4 bgf">col1</div>
+			<div class="col-4 bgf">col2</div>
+			<!--salto de columna pero en la misma fila -->
+			<div class="w-100"></div>
+			<div class="col-4 bge">col3</div>
+			<div class="col-4 bge">col4</div>
+		</div>
+		<!--columnas que establesco no se agregan más -->
+		<div class="row row-cols-2">
+			<div class="col b">col1</div>
+			<div class="col b">col2</div>
+			<div class="col b">col3</div>
+			<div class="col b">col4</div>
+		</div>
+		<!--voy a querer que se muestren: pensar asi -->
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+			<div class="col bb">col1</div>
+			<div class="col bb">col2</div>
+			<div class="col bb">col3</div>
+			<div class="col bb">col4</div>
+		</div>
+		
+	</div>
+
+	<!-- 	jquery .js-->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<!-- 	popper.js -->
+	<script src="js/popper.min.js"></script>
+	<!-- bootstrap .js -->
+	<script src="js/popper.min.js"></script>
+</body>
+</html>
