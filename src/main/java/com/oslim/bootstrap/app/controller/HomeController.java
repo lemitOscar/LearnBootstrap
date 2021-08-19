@@ -2,7 +2,6 @@ package com.oslim.bootstrap.app.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 @Controller
@@ -32,4 +31,16 @@ public class HomeController {
     public String disp() {
         return "display";
     }
+    
+    @GetMapping("/mar")
+    public String espacio() {
+    	return "margin";
+    }
+    
+    @GetMapping("/des")
+    public String desbord() {
+    	return "desbor";
+    }
+ 
+    
 }
