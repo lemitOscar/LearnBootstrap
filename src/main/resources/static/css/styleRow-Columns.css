@@ -81,14 +81,12 @@ row, .bga {
 	background-color: green;
 }
 .subp{
-	background-color: lime;
+	background-color: lime
 }
-
-
-
-
-
-
+.medida{
+    width:300px;
+    height: 250px;
+}
 
 
 
