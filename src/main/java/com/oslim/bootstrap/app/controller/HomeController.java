@@ -42,5 +42,8 @@ public class HomeController {
     	return "desbor";
     }
  
-    
+    @GetMapping("/posi")
+    public String posicion(){
+        return "mover";
+    }
 }
