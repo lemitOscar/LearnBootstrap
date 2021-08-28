@@ -5,15 +5,56 @@
     <!-- 	bootstrap css-->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <title>Document</title>
+    <style>
+      .contenedor {
+        --tamano: 400px;
+        width: var(--tamano);
+        /* height: var(--tamano); */
+      }
+      .caja {
+        --tamano: 120px;
+        width: var(--tamano);
+        height: var(--tamano);
+      }
+
+      .position {
+        bottom: 40px;
+      }
+    </style>
   </head>
   <body>
-    <h1 class="text-center">hola</h1>
 
-    <div class="position-static bg-info">..ESTATIC.</div>
-    <div class="position-relative bg-warning">..RELATIVE.</div>
-    <div class="position-absolute">.ABSOLUTE..</div>
-    <div class="position-fixed">..FIXED.</div>
-    <div class="position-sticky">..STYCKY.</div>
+    <div class="bg-dark contenedor">
+      <div class="bg-primary caja">caja1</div>
+      <!-- <div class="bg-success position-fixed caja">caja2</div> -->
+      <!-- <div class="bg-success position-sticky caja position">caja2</div> -->
+      <div class="bg-success sticky-top caja">caja2</div>
+      <div class="bg-warning caja">caja3</div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas enim
+        tempora aperiam officia ducimus et repudiandae sit inventore ipsum,
+        explicabo veritatis consequuntur aspernatur voluptatibus distinctio ipsa
+        tempore in tenetur magni quaerat repellat eius commodi aliquid unde.
+        Esse quaerat voluptatem natus nam et ad, minus quibusdam illum
+        repudiandae magni aut quia! Quis sequi aut autem impedit, ea expedita
+        repellat soluta rem natus maiores eaque non illum sint, odio corrupti
+        repellendus dicta, quaerat a molestias minima illo voluptatem! Alias ex
+        esse modi magni exercitationem sit aliquam quidem voluptatibus commodi
+        animi consequuntur pariatur sunt, totam eaque fugiat quam suscipit nisi.
+        Minus quas iure distinctio, perspiciatis sunt in delectus soluta aperiam
+        iste? Reprehenderit, sequi quae enim dolore accusantium vel doloribus
+        ducimus. Ad sint accusantium ex possimus sunt fugit eos repellat enim
+        blanditiis error rem harum quo officiis reprehenderit, nulla,
+        consequuntur quae dolores quaerat ducimus iure. Temporibus placeat porro
+        fuga optio consectetur quas sequi vitae laboriosam cumque commodi,
+        doloribus corrupti saepe ullam non. Repudiandae quisquam consequatur
+        voluptatum. Delectus quisquam eius, obcaecati accusantium ut reiciendis
+        adipisci nemo deleniti fugiat maiores similique nisi corrupti
+        exercitationem. Voluptatibus quo non quod et eum laboriosam adipisci
+        asperiores ut quis quidem laudantium suscipit rem perspiciatis iure,
+        officia amet aspernatur? Numquam, necessitatibus?
+      </p>
+    </div>
 
     <!-- 	jquery .js-->
     <script src="js/jquery-3.6.0.min.js"></script>
